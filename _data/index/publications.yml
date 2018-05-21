@@ -1,0 +1,53 @@
+- year: "2018"
+  publications: 
+    - title:
+        detail: SPOOK - A comprehensive Space Surveillance and Tracking Analysis Tool.
+        i18n: "title_spook"
+      authors: "J. Utzmann, U. Hugentobler"
+      cite:
+        detail: Acta Astronautica, 2018
+        i18n: "cite_spook"
+      doi: https://doi.org/10.1016/j.actaastro.2018.02.008
+
+- year: "2016"
+  publications:
+    - title:
+        detail: Improvement and Validation of a Space Debris Orbit Determination Tool
+        i18n: "title_msc_thesis"
+      cite:
+        detail: MSc Thesis at Cranfield University, 2016
+        i18n: "cite_msc_thesis"
+      url:
+        - link:  /static/pdf/O_Rodriguez_MSc_Thesis_paper_2016.pdf
+          label: 
+            detail:  Paper
+            i18n : "label_url_msc_paper"
+        - link:  /static/pdf/O_Rodriguez_MSc_Thesis.pdf
+          label: 
+            detail:  Full Report
+            i18n : "label_url_msc_report"
+    - title:
+        detail: "Lunar Mission One: Descent and Landing Subsystem"
+        i18n: title_msc_group_design
+      cite:
+        detail: Group Design Project at Cranfield University, 2016
+        i18n: cite_msc_gdp
+      url:
+        - link:  /static/pdf/LMO_Oscar_Rodriguez_Descent_&_Landing.pdf
+          label: 
+            detail:  Full Report
+            i18n : label_url_gdp_report
+
+- year: "2014"
+  publications:
+    - title:
+        detail: Estudio de la locomoción de un robot con patas como sistema dinámico no lineal.
+        i18n: title_bsc_thesis
+      cite:
+        detail: Bachelor Thesis at Technical University of Madrid (UPM), 2014.
+        i18n: "cite_bsc_thesis"
+      url:
+        - link:  /static/pdf/O_Rodriguez_BSc_Thesis.pdf
+          label: 
+            detail:  Full Report
+            i18n : label_url_bsc_report

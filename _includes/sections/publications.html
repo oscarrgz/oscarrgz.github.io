@@ -1,0 +1,47 @@
+<div class="container i18container">
+    <div class="row m-b-lg">
+      <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1><span data-i18n="publications.my_publications">My publications</span></h1>
+      </div> 
+   </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p><a href="https://scholar.google.com/citations?hl=en&user=RZMkK3YAAAAJ"><i class="fa fa-graduation-cap fa-3x"></i></a></p>
+        <p><a href="https://scholar.google.com/citations?hl=en&user=RZMkK3YAAAAJ">Google Scholar</i></a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+          
+        {% for year in site.data.index.publications %}
+        <h1>{{year.year}}</h1>
+        <ul style="list-style-type: none">
+        {% for publication in year.publications %}
+          <li class="entry"></li>
+            <h2><strong><span data-i18n="publications.{{ publication.title.i18n }}">{{ publication.title.detail }}</span></strong></h2>
+            <em>O. Rodriguez Fernandez</em>{% if publication.authors %}
+            , {{publication.authors}}
+            {% endif %}. <br/>
+            <span data-i18n="publications.{{ publication.cite.i18n }}">{{ publication.cite.detail }}</span>
+            {% if publication.url %}
+              {% for link in publication.url %}
+              <a href="{{ link.link | prepend: site.baseurl }}">[<span data-i18n="publications.{{ link.label.i18n }}">{{ link.label.detail }}</span>]</a>
+              {% endfor %}
+            {% endif %}
+            {% if publication.doi %}
+              <a href="{{publication.doi}}">{{publication.doi}}</a>
+              {% endif %}
+          </li>
+        {% endfor %}
+        </ul> 
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+        <p><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+      </div>
+    </div>
+  </div>
+  

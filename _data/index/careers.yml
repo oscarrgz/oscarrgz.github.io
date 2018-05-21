@@ -1,29 +1,90 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name:
-    detail: Company A
-    i18n: company_a
-  desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
-  date:
-    detail: Apr. 2016
-    i18n: company_a_date
-  job:
-    detail: CTO
-    i18n: company_a_job
-  icon: fa-plus-square
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: PhD researcher at Airbus Defence and Space
+    i18n: Phd_Airbus_name
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: I am doing a PhD in Airbus Defence and Space
+    i18n: Phd_Airbus_des
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: Nov. 2016 - Present
+    i18n: Phd_Airbus_date
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
-  icon: fa-plus-square
+    detail: PhD Candidate
+    i18n: Phd_Airbus_job
+  icon: fa-search
+
+- name:
+    detail: MSc Final year thesis at Airbus Defence and Space
+    i18n: Thesis_Airbus_name
+  desc:
+    detail: I am doing a PhD in Airbus Defence and Sapce
+    i18n: Thesis_Airbus_des
+  date:
+    detail: Apr. 2016 - Sep. 2016
+    i18n: Thesis_Airbus_date
+  job:
+    detail: Final Year Thesis
+    i18n: Thesis_Airbus_job
+  icon: fa-search
+
+
+
+- name:
+    detail: MSc in Astronautics and Space Engineering at Cranfield University
+    i18n: MSc_cranfield_name
+  desc:
+    detail: I studied a MSc in Astronautics and Space Engineering at Cranfield University
+    i18n: MSc_cranfield_desc
+  date:
+    detail: Oct. 2015 - Sep. 2016
+    i18n: MSc_cranfield_date
+  job:
+    detail: MSc Student
+    i18n: MSc_cranfield_job
+  icon: fa-book
+
+- name:
+    detail: MSc in Aeronautical Engineering at Technical University of Madrid (UPM)
+    i18n: MSc_upm_name
+  desc:
+    detail: I studied a MSc in Astronautics and Space Engineering at Cranfield University
+    i18n: MSc_upm_desc
+  date:
+    detail: Oct. 2014 - Sep. 2016
+    i18n: MSc_upm_date
+  job:
+    detail: MSc Student
+    i18n: MSc_upm_job
+  icon: fa-book
+
+- name:
+    detail: Internship in Everis Aerospace, Defence and Security
+    i18n: everis_name
+  desc:
+    detail: I am doing a PhD in Airbus Defence and Sapce
+    i18n: everis_des
+  date:
+    detail: Feb. 2014 - May. 2014
+    i18n: everis_date
+  job:
+    detail: Intern
+    i18n: everis_job
+  icon: fa-search
+
+- name:
+    detail: BSc in Aeroespace Engineering at Technical University of Madrid (UPM)
+    i18n: BSc_upm_name
+  desc:
+    detail: I studied a MSc in Astronautics and Space Engineering at Cranfield University
+    i18n: BSc_upm_desc
+  date:
+    detail: Sep. 2010 - Jul. 2014
+    i18n: BSc_upm_date
+  job:
+    detail: BSc Student
+    i18n: BSc_upm_job
+  icon: fa-book
+
+
