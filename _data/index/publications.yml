@@ -7,16 +7,26 @@
       cite:
         detail: NEO and Debris Detection Conference. Darmstadt, Germany
         i18n: "cite_Thesis"
+      url:
+        - link:  https://conference.sdo.esoc.esa.int/proceedings/neosst1/paper/42
+          label: 
+            detail:  "Link"
+            i18n : "label_url_paper"
 
 - year: "2019"
   publications: 
     - title:
         detail: Airbus Robotic Telescope.
         i18n: "title_ART"
-      authors: "J. Utzmann,O. Rodriguez Fernandez, and M. Dimitrova"
+      authors: "J. Utzmann and M. Dimitrova"
       cite:
         detail: NEO and Debris Detection Conference. Darmstadt, Germany
         i18n: "cite_ART"
+      url:
+        - link:  https://conference.sdo.esoc.esa.int/proceedings/neosst1/paper/424
+          label: 
+            detail:  "Link"
+            i18n : "label_url_paper"
 
 - year: "2018"
   publications: 

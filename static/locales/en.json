@@ -13,7 +13,7 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am an Aeroespace Engineering with experience developing software Space Surveillance and Tracking applications."
+    "des": "I am an Aeroespace Engineering with experience in Astrodynamics, SSA/SST, Satellite Operations and  developing software for Space Surveillance and Tracking applications."
   },
   "skills":{
     "my_skills": "My Skills"
@@ -26,8 +26,8 @@
   },
   "career":{
     "my_career": "My Career",
-    "SatCen_name": "Project Officer SSA Operations",
-    "SatCen_des": "I am part of the Operations Team of the EU SST Front Desk at the European Union Satellite Center.",
+    "SatCen_name": "Project Officer SSA Operations at European Union Satellite Centre",
+    "SatCen_des": "I am part of the Operations Team in the SSA Unit of the European Union Satellite Center (SatCen). The EU Satcen acts as the Front Desk for EU SST. EU SST provides a set of SST services (Collision Avoidance, Fragmentation and Re-Entry Analysis) to all EU countries, EU institutions, spacecraft owners and operators, and civil protection authorities.",
     "SatCen_date": "Aug. 2019 - Present",
     "SatCen_job": "Project Officer SSA Operations",
     "Phd_Airbus_name": "PhD researcher at Airbus Defence and Space",
@@ -75,6 +75,7 @@
     "label_url_gdp_report": "Report",
     "title_bsc_thesis": "Study of the motion of a legged robot as a non-linear dynamic system",
     "cite_bsc_thesis": "Bachelor Thesis at Technical University of Madrid (UPM), 2014.",
-    "label_url_bsc_report": "Report"
+    "label_url_bsc_report": "Report",
+    "label_url_paper": "Link"
   }
 }
