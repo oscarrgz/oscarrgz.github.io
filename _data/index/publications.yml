@@ -1,3 +1,33 @@
+- year: "2019"
+  publications: 
+    - title:
+        detail: Correlation of Optical Observations to Catalogued Objects Using Multiple Hypothesis Filters.
+        i18n: "title_Thesis"
+      authors: "J. Utzmann and U. Hugentobler"
+      cite:
+        detail: NEO and Debris Detection Conference. Darmstadt, Germany
+        i18n: "cite_Thesis"
+
+- year: "2019"
+  publications: 
+    - title:
+        detail: Airbus Robotic Telescope.
+        i18n: "title_ART"
+      authors: "J. Utzmann,O. Rodriguez Fernandez, and M. Dimitrova"
+      cite:
+        detail: NEO and Debris Detection Conference. Darmstadt, Germany
+        i18n: "cite_ART"
+
+- year: "2018"
+  publications: 
+    - title:
+        detail: Evaluation of a Commercial Radar Network to Support Conjunction Assessment.
+        i18n: "title_LeoLabs"
+      authors: "J. Utzmann, F. Bonaventure, D. Gegout, M. Nicolls and N. Griffith"
+      cite:
+        detail: 69th International Astronautical Congress (IAC), Bremen, Germany
+        i18n: "cite_LeoLabs"
+
 - year: "2018"
   publications: 
     - title:

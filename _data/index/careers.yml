@@ -2,13 +2,28 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
+    detail: Project Officer SSA Operations
+    i18n: SatCen_name
+  desc:
+    detail: I am part of the Operations Team for the EU SST Front Desk the European Union Satellite Center.
+    i18n: SatCen_des
+  date:
+    detail: Aug. 2019 - Present
+    i18n: SatCen_date
+  job:
+    detail: Project Officer SSA Operations
+    i18n: SatCen_job
+  icon: fa-search
+
+
+- name:
     detail: PhD researcher at Airbus Defence and Space
     i18n: Phd_Airbus_name
   desc:
     detail: I am doing a PhD in Airbus Defence and Space
     i18n: Phd_Airbus_des
   date:
-    detail: Nov. 2016 - Present
+    detail: Nov. 2016 - Jul. 2019
     i18n: Phd_Airbus_date
   job:
     detail: PhD Candidate
