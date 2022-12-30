@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: Oscar Rodriguez  # Be used at blog posts' author.
   first_name: Oscar  # Be used at index page about me section.
   last_name: Rodriguez  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/black_and_white_front_reduced.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.png # upload your avatar at directory and edit it.
   github_username: # oscarrgz  # Leave blank if you don't have now
   linkedin_id: oscarrodriguezfernandez # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
